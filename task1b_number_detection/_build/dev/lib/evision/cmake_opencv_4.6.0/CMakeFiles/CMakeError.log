@@ -1,0 +1,905 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a251c/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a251c.dir/build.make CMakeFiles/cmTC_a251c.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a251c.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_a251c.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_a251c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a251c.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_a251c.dir/src.c.o  -o cmTC_a251c 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c8d3f/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c8d3f.dir/build.make CMakeFiles/cmTC_c8d3f.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8d3f.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_c8d3f.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_c8d3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8d3f.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_c8d3f.dir/src.cxx.o  -o cmTC_c8d3f 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e693/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1e693.dir/build.make CMakeFiles/cmTC_1e693.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e693.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_1e693.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_1e693
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e693.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_1e693.dir/src.cxx.o  -o cmTC_1e693 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0e3b/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d0e3b.dir/build.make CMakeFiles/cmTC_d0e3b.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0e3b.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_d0e3b.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_d0e3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0e3b.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_d0e3b.dir/src.c.o  -o cmTC_d0e3b 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_afee9/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_afee9.dir/build.make CMakeFiles/cmTC_afee9.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afee9.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_afee9.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_afee9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afee9.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_afee9.dir/src.c.o  -o cmTC_afee9 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b892/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1b892.dir/build.make CMakeFiles/cmTC_1b892.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b892.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_1b892.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_1b892
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b892.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_1b892.dir/src.c.o  -o cmTC_1b892 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_787c0/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_787c0.dir/build.make CMakeFiles/cmTC_787c0.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_787c0.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_787c0.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_787c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_787c0.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_787c0.dir/src.cxx.o  -o cmTC_787c0 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f65c/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5f65c.dir/build.make CMakeFiles/cmTC_5f65c.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f65c.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_5f65c.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_5f65c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f65c.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_5f65c.dir/src.c.o  -o cmTC_5f65c 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67c38/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_67c38.dir/build.make CMakeFiles/cmTC_67c38.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67c38.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_67c38.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_67c38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67c38.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_67c38.dir/src.c.o  -o cmTC_67c38 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf91b/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bf91b.dir/build.make CMakeFiles/cmTC_bf91b.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf91b.dir/OFF64_T.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_bf91b.dir/OFF64_T.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: error: ‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^~~~~~~
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[2]: *** [CMakeFiles/cmTC_bf91b.dir/build.make:66: CMakeFiles/cmTC_bf91b.dir/OFF64_T.c.o] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_bf91b/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_596bc/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_596bc.dir/build.make CMakeFiles/cmTC_596bc.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_596bc.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_596bc.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_596bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_596bc.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_596bc.dir/src.c.o  -o cmTC_596bc 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f51d8/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f51d8.dir/build.make CMakeFiles/cmTC_f51d8.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f51d8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f51d8.dir/CheckIncludeFile.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+    1 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_f51d8.dir/build.make:66: CMakeFiles/cmTC_f51d8.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_f51d8/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5ed9d/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5ed9d.dir/build.make CMakeFiles/cmTC_5ed9d.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ed9d.dir/int8.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5ed9d.dir/int8.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int8.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int8.c:23:22: error: ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^~~~
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[2]: *** [CMakeFiles/cmTC_5ed9d.dir/build.make:66: CMakeFiles/cmTC_5ed9d.dir/int8.c.o] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_5ed9d/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99401/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_99401.dir/build.make CMakeFiles/cmTC_99401.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99401.dir/int16.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_99401.dir/int16.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int16.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int16.c:23:22: error: ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^~~~~
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[2]: *** [CMakeFiles/cmTC_99401.dir/build.make:66: CMakeFiles/cmTC_99401.dir/int16.c.o] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_99401/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d1fd/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1d1fd.dir/build.make CMakeFiles/cmTC_1d1fd.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d1fd.dir/int32.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1d1fd.dir/int32.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int32.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int32.c:23:22: error: ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^~~~~
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[2]: *** [CMakeFiles/cmTC_1d1fd.dir/build.make:66: CMakeFiles/cmTC_1d1fd.dir/int32.c.o] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_1d1fd/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f91af/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f91af.dir/build.make CMakeFiles/cmTC_f91af.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f91af.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f91af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f91af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f91af.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f91af.dir/CheckFunctionExists.c.o  -o cmTC_f91af 
+/usr/bin/ld: CMakeFiles/cmTC_f91af.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_f91af.dir/build.make:87: cmTC_f91af] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_f91af/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-array-parameter’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-array-parameter'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3adbe/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3adbe.dir/build.make CMakeFiles/cmTC_3adbe.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3adbe.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-implicit-fallthrough -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-array-parameter -o CMakeFiles/cmTC_3adbe.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-array-parameter’
+Linking C executable cmTC_3adbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3adbe.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-implicit-fallthrough -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3adbe.dir/src.c.o  -o cmTC_3adbe 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_598d2/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_598d2.dir/build.make CMakeFiles/cmTC_598d2.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_598d2.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_598d2.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_598d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_598d2.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_598d2.dir/src.cxx.o  -o cmTC_598d2 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c90b9/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c90b9.dir/build.make CMakeFiles/cmTC_c90b9.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c90b9.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_c90b9.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking C executable cmTC_c90b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c90b9.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c90b9.dir/src.c.o  -o cmTC_c90b9 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b4642/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b4642.dir/build.make CMakeFiles/cmTC_b4642.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4642.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b4642.dir/CheckSymbolExists.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+make[2]: *** [CMakeFiles/cmTC_b4642.dir/build.make:66: CMakeFiles/cmTC_b4642.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_b4642/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+File /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-null-pointer-subtraction’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b67a9/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b67a9.dir/build.make CMakeFiles/cmTC_b67a9.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b67a9.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-null-pointer-subtraction -o CMakeFiles/cmTC_b67a9.dir/src.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-null-pointer-subtraction’
+Linking C executable cmTC_b67a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b67a9.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b67a9.dir/src.c.o  -o cmTC_b67a9 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d4cb/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1d4cb.dir/build.make CMakeFiles/cmTC_1d4cb.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d4cb.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_1d4cb.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_1d4cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d4cb.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1d4cb.dir/src.cxx.o  -o cmTC_1d4cb 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bd5b3/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bd5b3.dir/build.make CMakeFiles/cmTC_bd5b3.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd5b3.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -std=c++11 -o CMakeFiles/cmTC_bd5b3.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking CXX executable cmTC_bd5b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd5b3.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_bd5b3.dir/src.cxx.o  -o cmTC_bd5b3 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc82e/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fc82e.dir/build.make CMakeFiles/cmTC_fc82e.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc82e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fc82e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fc82e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc82e.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_fc82e.dir/CheckFunctionExists.c.o  -o cmTC_fc82e 
+/usr/bin/ld: CMakeFiles/cmTC_fc82e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_fc82e.dir/build.make:87: cmTC_fc82e] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_fc82e/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6e5e/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b6e5e.dir/build.make CMakeFiles/cmTC_b6e5e.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6e5e.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_b6e5e.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_b6e5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e5e.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b6e5e.dir/src.cxx.o  -o cmTC_b6e5e 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4daa1/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4daa1.dir/build.make CMakeFiles/cmTC_4daa1.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4daa1.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_4daa1.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_4daa1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4daa1.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4daa1.dir/src.cxx.o  -o cmTC_4daa1 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8888e/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8888e.dir/build.make CMakeFiles/cmTC_8888e.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8888e.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_8888e.dir/src.cxx.o -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_8888e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8888e.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8888e.dir/src.cxx.o  -o cmTC_8888e 
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f731/fast && make[1]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7f731.dir/build.make CMakeFiles/cmTC_7f731.dir/build
+make[2]: Entering directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f731.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7f731.dir/CheckIncludeFile.c.o   -c /home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_7f731.dir/build.make:66: CMakeFiles/cmTC_7f731.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_7f731/fast] Error 2
+make[1]: Leaving directory '/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+

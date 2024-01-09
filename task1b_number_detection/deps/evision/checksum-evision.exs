@@ -1,0 +1,16 @@
+%{
+  "evision-nif_2.16-aarch64-apple-darwin-0.1.15.tar.gz" => "sha256:2185e028b38ac243d32cf1bc8b744f9869f1c79fb5209ef547b210b2f1f47e4c",
+  "evision-nif_2.16-aarch64-linux-gnu-0.1.15.tar.gz" => "sha256:ce98f911754d24ba26da95d3c9c578c9e1912ae81a3d1d55dcfbd6f5bee62955",
+  "evision-nif_2.16-aarch64-linux-musl-0.1.15.tar.gz" => "sha256:5921b98ae726f06b486770f368abae914db46b7bdf6fa10b08090b585a370c12",
+  "evision-nif_2.16-aarch64-windows-msvc-0.1.15.tar.gz" => "sha256:1dbec54b5207ee14f138832eb02ba4d57321904b68b2a3773a3947c68d3eed36",
+  "evision-nif_2.16-armv7l-linux-gnueabihf-0.1.15.tar.gz" => "sha256:d87244e4e4189ca6d07b316690ccdbe03115a0ff5d8229aa942864cbf8a1f0ae",
+  "evision-nif_2.16-i686-linux-gnu-0.1.15.tar.gz" => "sha256:6977addee59e4ed0f74352750c1d21d5670d69644c2beba0eecd5f649be9c414",
+  "evision-nif_2.16-ppc64le-linux-gnu-0.1.15.tar.gz" => "sha256:c0054fd5a2c5032fbc0f0f3c46e190de457cc02625c5a5cab292ec0d8cc74391",
+  "evision-nif_2.16-riscv64-linux-gnu-0.1.15.tar.gz" => "sha256:c1a6240b4861d6449d44b13a3ee6c2d6c94d17184fb041e600644508acbcf5cf",
+  "evision-nif_2.16-riscv64-linux-musl-0.1.15.tar.gz" => "sha256:5420473ce4474bacde90ddebec851c1f822cca44400a5f6ff9c39ba512c5f68b",
+  "evision-nif_2.16-s390x-linux-gnu-0.1.15.tar.gz" => "sha256:f12cd7b25688ad6839f39db48be55f1a743c1772e2dd70b21d9c46194844c1b6",
+  "evision-nif_2.16-x86_64-apple-darwin-0.1.15.tar.gz" => "sha256:70ac89a050c01d199b93f864db057b27d9ee6afa8b0cb4c8e38b76bd058f96f6",
+  "evision-nif_2.16-x86_64-linux-gnu-0.1.15.tar.gz" => "sha256:316c7a6ed08080f77283cbecd36b5f7c8699c9e2b87c3f84153402e5135d9cd9",
+  "evision-nif_2.16-x86_64-linux-musl-0.1.15.tar.gz" => "sha256:e426fc336f3fd76c4c5f157c88d316053485ea63ce7efd367837e19c6e03522d",
+  "evision-nif_2.16-x86_64-windows-msvc-0.1.15.tar.gz" => "sha256:89f9afc054c51f9266a63906f19a3afb1c836caa36d3e6f1cee02c2d25b2a77e",
+}

@@ -1,0 +1,11 @@
+%{
+  "complex": {:hex, :complex, "0.4.2", "923e5db0be13dbb3ea00cf8459d9f75f3afdd9ff5a82742ded21064330d28273", [:mix], [], "hexpm", "069a085ef820ce675a2619fd125b963ff4514af2102c7f7d7965128e5ec0a429"},
+  "dll_loader_helper": {:hex, :dll_loader_helper, "0.1.7", "286c3d90efe136767ff8a0792369a5c74d68a73a71cec3d67e2358a920875b1c", [:make, :mix, :rebar3], [], "hexpm", "bd24257e4b54bece5041f11f42ad0eb64c37efe613ed69cd7401a8d2dbd2349c"},
+  "elixir_make": {:hex, :elixir_make, "0.6.3", "bc07d53221216838d79e03a8019d0839786703129599e9619f4ab74c8c096eac", [:mix], [], "hexpm", "f5cbd651c5678bcaabdbb7857658ee106b12509cd976c2c2fca99688e1daf716"},
+  "evision": {:hex, :evision, "0.1.15", "3885f49e49ad4ee11ee0d551b5c02c07269ec3feab9f02aee203cafe180bfe6f", [:make, :mix, :rebar3], [{:dll_loader_helper, "~> 0.1", [hex: :dll_loader_helper, repo: "hexpm", optional: false]}, {:elixir_make, "~> 0.6", [hex: :elixir_make, repo: "hexpm", optional: false]}, {:kino, "~> 0.7", [hex: :kino, repo: "hexpm", optional: false]}, {:nx, "~> 0.3", [hex: :nx, repo: "hexpm", optional: false]}], "hexpm", "be693817ba22c1d0f28a5cdc1c52056b81249dcc29a56a5aefd349a2eb54e465"},
+  "kino": {:hex, :kino, "0.7.0", "98d2623bebf8d1c4d761c5ed9741c6aae2f1909706baec501f2fdad347cb9d92", [:mix], [{:table, "~> 0.1.2", [hex: :table, repo: "hexpm", optional: false]}], "hexpm", "3dd1ee761c241caa30364333e3102a954d68188414a46e867f95c858d745f3fd"},
+  "nx": {:hex, :nx, "0.3.0", "12448769619ed1442e22bd198faf4629ae3d0ee3ed565e42be49829cc42bf35f", [:mix], [{:complex, "~> 0.4.2", [hex: :complex, repo: "hexpm", optional: false]}], "hexpm", "d08d8962f4379ade54281aad84c45cb7eb0118b406fc836f07b94acc40df5859"},
+  "secure_random": {:hex, :secure_random, "0.5.1", "c5532b37c89d175c328f5196a0c2a5680b15ebce3e654da37129a9fe40ebf51b", [:mix], [], "hexpm", "1b9754f15e3940a143baafd19da12293f100044df69ea12db5d72878312ae6ab"},
+  "table": {:hex, :table, "0.1.2", "87ad1125f5b70c5dea0307aa633194083eb5182ec537efc94e96af08937e14a8", [:mix], [], "hexpm", "7e99bc7efef806315c7e65640724bf165c3061cdc5d854060f74468367065029"},
+  "tesseract_ocr": {:hex, :tesseract_ocr, "0.1.5", "158d5f1a3b6507655f52c4cb55c7ddf638f1c1ede0dc464e027cd0e01d7c4b64", [:mix], [{:secure_random, ">= 0.0.0", [hex: :secure_random, repo: "hexpm", optional: false]}], "hexpm", "fdc09d9704ba2e162740f651db5a4dcf1643d6cb70e3e8f8d33352e4b6ac6d99"},
+}

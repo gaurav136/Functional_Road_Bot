@@ -1,0 +1,3 @@
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_evision/CMakeFiles/rebuild_cache.dir
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_evision/CMakeFiles/edit_cache.dir
+/home/dark-horse/Documents/E-yanta_2022/task1b_number_detection/_build/dev/lib/evision/cmake_evision/CMakeFiles/evision.dir
